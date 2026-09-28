@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = TemplateSimple
+CurrentModule = TestSimple
 ```
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/TemplateSimple.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/TestSimple.jl/tree/main/src).
 
 ## Index
 
@@ -14,5 +14,5 @@ The API reference below is generated from docstrings in the [source code](https:
 ## Docstrings
 
 ```@autodocs
-Modules = [TemplateSimple]
+Modules = [TestSimple]
 ```

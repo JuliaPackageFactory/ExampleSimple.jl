@@ -1,6 +1,6 @@
-module TemplateSimple
+module TestSimple
 
-# Public API, accessed as TemplateSimple.hello without exporting the name.
+# Public API, accessed as TestSimple.hello without exporting the name.
 public hello
 
 """
@@ -9,7 +9,7 @@ Return a friendly greeting.
 # Examples
 
 ```jldoctest
-julia> TemplateSimple.hello()
+julia> TestSimple.hello()
 "Hello, World!"
 ```
 """

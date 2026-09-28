@@ -1,6 +1,6 @@
-using TemplateSimple
+using TestSimple
 using Test
 
-@testset "TemplateSimple.hello" begin
-    @test TemplateSimple.hello() == "Hello, World!"
+@testset "TestSimple.hello" begin
+    @test TestSimple.hello() == "Hello, World!"
 end

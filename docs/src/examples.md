@@ -1,22 +1,22 @@
 ```@meta
-CurrentModule = TemplateSimple
+CurrentModule = TestSimple
 ```
 
 # Examples
 
-The examples below show how to load TemplateSimple.jl and use its generated starter function.
+The examples below show how to load TestSimple.jl and use its generated starter function.
 
 ## Basic usage
 
 ```@repl
-import TemplateSimple
-TemplateSimple.hello()
+import TestSimple
+TestSimple.hello()
 ```
 
 ## Composing the result
 
 ```@example
-import TemplateSimple
-greeting = TemplateSimple.hello()
-"$(greeting) Welcome to TemplateSimple.jl."
+import TestSimple
+greeting = TestSimple.hello()
+"$(greeting) Welcome to TestSimple.jl."
 ```
