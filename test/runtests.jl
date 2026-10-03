@@ -1,6 +1,6 @@
-using TestSimple
+using ExampleSimple
 using Test
 
-@testset "TestSimple.hello" begin
-    @test TestSimple.hello() == "Hello, World!"
+@testset "ExampleSimple.hello" begin
+    @test ExampleSimple.hello() == "Hello, World!"
 end

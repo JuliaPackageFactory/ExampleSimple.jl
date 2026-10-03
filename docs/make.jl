@@ -1,16 +1,16 @@
-using TestSimple
+using ExampleSimple
 using Documenter
 
-DocMeta.setdocmeta!(TestSimple, :DocTestSetup, :(using TestSimple); recursive = true)
+DocMeta.setdocmeta!(ExampleSimple, :DocTestSetup, :(using ExampleSimple); recursive = true)
 
 makedocs(;
     checkdocs = :public,
-    modules = [TestSimple],
+    modules = [ExampleSimple],
     authors = "Shuhei Ohno",
-    sitename = "TestSimple.jl",
+    sitename = "ExampleSimple.jl",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
-        canonical = "https://JuliaPackageFactory.github.io/TestSimple.jl",
+        canonical = "https://JuliaPackageFactory.github.io/ExampleSimple.jl",
         edit_link = "main",
         assets = ["assets/custom.css"],
     ),
@@ -22,6 +22,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/JuliaPackageFactory/TestSimple.jl",
+    repo = "github.com/JuliaPackageFactory/ExampleSimple.jl",
     devbranch = "main",
 )
