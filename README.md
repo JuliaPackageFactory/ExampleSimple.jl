@@ -6,7 +6,7 @@
 [![CI](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![coverage](https://codecov.io/gh/JuliaPackageFactory/ExampleSimple.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaPackageFactory/ExampleSimple.jl)
 
-Integration tests for the simple template of \[PkgFactory\]\(https\:\/\/github\.com\/JuliaPackageFactory\/PkgFactory\.ts\)\.
+Integration tests for the simple template of [PkgFactory](https://github.com/JuliaPackageFactory/PkgFactory.ts).
 
 ## Quick Start
 

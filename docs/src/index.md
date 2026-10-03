@@ -10,9 +10,7 @@ CurrentModule = ExampleSimple
 [![CI](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![coverage](https://codecov.io/gh/JuliaPackageFactory/ExampleSimple.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaPackageFactory/ExampleSimple.jl)
 
-```@raw html
-<p class="pkgfactory-description">Integration tests for the simple template of [PkgFactory](https://github.com/JuliaPackageFactory/PkgFactory.ts).</p>
-```
+Integration tests for the simple template of [PkgFactory](https://github.com/JuliaPackageFactory/PkgFactory.ts).
 
 This package requires Julia 1.12 or later because it uses Pkg workspaces.
 See `[compat]` in [Project.toml](https://github.com/JuliaPackageFactory/ExampleSimple.jl/blob/main/Project.toml)
@@ -38,4 +36,4 @@ For the generated API index and docstrings, see the [API Reference](api.md).
 
 ## Acknowledgments
 
-This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleSimple.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions).
+This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.ts](https://github.com/JuliaPackageFactory/PkgFactory.ts). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleSimple.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions).
