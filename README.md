@@ -10,17 +10,11 @@ Integration tests for the simple template of [PkgFactory](https://github.com/Jul
 
 ## Quick Start
 
-Run the following command in the Julia REPL or a notebook:
+Requires [Julia](https://julialang.org/install/) 1.12 or later. Paste the following into the Julia REPL or a notebook cell:
 
 ```julia
 import Pkg; Pkg.add(url="https://github.com/JuliaPackageFactory/ExampleSimple.jl.git")
-```
-
-After installation, load the package and verify it works:
-
-```julia
-julia> import ExampleSimple; ExampleSimple.hello()
-"Hello, World!"
+import ExampleSimple; ExampleSimple.hello()  # returns "Hello, World!"
 ```
 
 ## Documentation
