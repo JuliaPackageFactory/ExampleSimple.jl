@@ -36,4 +36,4 @@ For the generated API index and docstrings, see the [API Reference](api.md).
 
 ## Acknowledgments
 
-This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.ts](https://github.com/JuliaPackageFactory/PkgFactory.ts). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleSimple.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions).
+This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [Julia Package Factory](https://github.com/JuliaPackageFactory). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleSimple.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleSimple.jl/actions).
